@@ -22,6 +22,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rake", "~> 11.2.2"
   spec.add_dependency "rspec", "~> 3.0"
   spec.add_dependency "therubyracer", "~> 0.12.2"
-  spec.add_dependency 'poltergeist', '~> 1.8.1'
+  spec.add_dependency 'poltergeist', '>= 1.9.3'
   spec.add_dependency 'capybara', '~> 2.8.1'
 end
